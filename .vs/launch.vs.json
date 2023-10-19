@@ -1,0 +1,18 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "managed",
+      "name": "WindowsFormsApp2.csproj",
+      "project": "WindowsFormsApp2.csproj",
+      "projectTarget": ""
+    },
+    {
+      "type": "managed",
+      "name": "WindowsFormsApp2.csproj(1)",
+      "project": "WindowsFormsApp2.csproj",
+      "projectTarget": ""
+    }
+  ]
+}
