@@ -16,3 +16,4 @@ C:\Users\Uzah01\Desktop\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.unit.resourc
 C:\Users\Uzah01\Desktop\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.add_product_name.resources
 C:\Users\Uzah01\Desktop\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.dealer_info.resources
 C:\Users\Uzah01\Desktop\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.purchase_master.resources
+C:\Users\Uzah01\Desktop\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.sales.resources

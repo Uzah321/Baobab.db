@@ -49,12 +49,12 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -80,7 +80,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button1.BackColor = System.Drawing.Color.Aqua;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(250, 278);
             this.button1.Name = "button1";
@@ -183,6 +183,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(532, 12);
             this.dataGridView1.Name = "dataGridView1";
@@ -194,7 +195,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(532, 408);
             this.button2.Name = "button2";
@@ -206,7 +207,7 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button3.BackColor = System.Drawing.Color.Red;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(848, 408);
             this.button3.Name = "button3";
@@ -237,7 +238,7 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(277, 267);
             this.button4.Name = "button4";
@@ -287,6 +288,22 @@
             this.label9.TabIndex = 6;
             this.label9.Text = "Company Name";
             // 
+            // textBox6
+            // 
+            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(277, 31);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(163, 27);
+            this.textBox6.TabIndex = 4;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox10.Location = new System.Drawing.Point(277, 217);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(163, 27);
+            this.textBox10.TabIndex = 0;
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -297,13 +314,13 @@
             this.label10.TabIndex = 5;
             this.label10.Text = "Dealer Name";
             // 
-            // textBox6
+            // textBox9
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(277, 31);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(163, 27);
-            this.textBox6.TabIndex = 4;
+            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox9.Location = new System.Drawing.Point(277, 172);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(163, 27);
+            this.textBox9.TabIndex = 1;
             // 
             // textBox7
             // 
@@ -321,27 +338,11 @@
             this.textBox8.Size = new System.Drawing.Size(163, 27);
             this.textBox8.TabIndex = 2;
             // 
-            // textBox9
-            // 
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(277, 172);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(163, 27);
-            this.textBox9.TabIndex = 1;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(277, 217);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(163, 27);
-            this.textBox10.TabIndex = 0;
-            // 
             // dealer_info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.BackColor = System.Drawing.Color.PaleTurquoise;
             this.ClientSize = new System.Drawing.Size(1179, 796);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button3);

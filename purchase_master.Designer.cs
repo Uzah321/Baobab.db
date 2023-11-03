@@ -165,7 +165,7 @@ namespace WindowsFormsApp2
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(260, 28);
             this.comboBox1.TabIndex = 10;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged_1);
             // 
             // textBox1
             // 
@@ -182,6 +182,7 @@ namespace WindowsFormsApp2
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(211, 27);
             this.textBox2.TabIndex = 12;
+            this.textBox2.Leave += new System.EventHandler(this.textBox2_Leave);
             // 
             // textBox3
             // 
@@ -212,10 +213,15 @@ namespace WindowsFormsApp2
             // 
             this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "CASH",
+            "DEBIT",
+            "INNBUCKS"});
             this.comboBox3.Location = new System.Drawing.Point(504, 382);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(260, 28);
             this.comboBox3.TabIndex = 16;
+            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
             // dateTimePicker2
             // 
@@ -235,20 +241,21 @@ namespace WindowsFormsApp2
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(475, 573);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(162, 57);
+            this.button1.Size = new System.Drawing.Size(198, 57);
             this.button1.TabIndex = 19;
             this.button1.Text = "Purchase Item";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // purchase_master
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.BackColor = System.Drawing.Color.PaleTurquoise;
             this.ClientSize = new System.Drawing.Size(1196, 722);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox4);
